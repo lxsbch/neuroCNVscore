@@ -3,15 +3,8 @@ The neuroCNVscore was developed to quantitatively prioritize the deleterious, fu
 
 # Quick start
 ## Feature matrix generation
-
 To run the predictor on specific CNVs, these CNVs must be annotated with features.
-
-feature_process.sh is the main script to process features from gene, functional and sequence levels. 
-
-* Usage: sh feature_process.sh [Master File] [Feature File]
-Master file is the interested CNVs in bed format.
-
-Feature file includes the pathes of all preprocessed features in bed format 
+A completed feature list could be found in supplemnetary table 1
 
 
 ## Pretained models
