@@ -41,7 +41,7 @@ The trained models are currently provided in two types: copy number loss and cop
 This script cnv_path_xgboost_202111.ipynb includes the main steps on input preprocessing, model training, prediction and performan evaluation.  Python version is 3.9.7 
 
 ### Prediction interpretation
-Higher predicted score is more likely to be pathogenic, and lower predicted score is considering to be benign. 
+Generally, higher predicted score is more likely to be pathogenic, and lower predicted score is considering to be benign. Empirically, a score is higher than 0.68 is considered as pathogenic.
 
 # Hardware requirements
 Our work was done at the linux x86_64 server with 144 CPUs, 1T memory. 
