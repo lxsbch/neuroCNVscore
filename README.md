@@ -3,8 +3,8 @@ The neuroCNVscore was developed to quantitatively prioritize the deleterious, fu
 
 # Quick start
 ## Feature source 
-To run the predictor on specific CNVs, these CNVs must be annotated with features.
-A completed feature list could be found in supplemnetary table 1 from our paper.
+To run the neuroCNVscore on specific CNVs, these CNVs must be annotated with features.
+A completed feature list could be found from feature folder or in supplemnetary table from our paper.
 
 ## Feature matrix generation
 To run the shell script,please make sure you have bedtools (v2.29.2) installed. 
@@ -22,7 +22,7 @@ bedtools map -a  SVFILE -b FEATRUE -c 4 -o mean -null -9
 ```
 
 ## Pretained models
-The trained models are currently provided in two types, copy number loss and copy number gain. 
+The trained models are currently provided in two types: copy number loss and copy number gain. 
 
 
 
