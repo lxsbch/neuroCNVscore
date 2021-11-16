@@ -18,7 +18,7 @@ To run the neuroCNVscore on specific CNVs, these CNVs must be annotated with neu
 A completed feature list could be found under feature folder or at supplemnetary table from our paper.
 
 ### Feature matrix generation
-To run the script,please make sure you have bedtools (v2.29.2) installed. And all the FEATRUE files shall be in bed format including: chromosome, strat, end and score/information.
+To run the script,please make sure you have bedtools (v2.29.2) installed. And all the FEATRUE files shall be in bed format including: chromosome, start, end and score/information.
 
 >Region
 ```Bash
