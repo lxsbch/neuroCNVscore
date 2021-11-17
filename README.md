@@ -1,8 +1,8 @@
 # neuroCNVscore
-The neuroCNVscore was developed to quantitatively prioritize the deleterious, functional and pathogenic CNVs in neurodevelopmental diseases on a genome wide basis. The core algorithm of neuroCNVscore is XGBoost. NeuroCNVscore outperformed in independent datasets and a well-known software SVScore. If you find neuroCNVscore useful in your work, please consider citing the neuroCNVscore paper (coming soon)
+The neuroCNVscore was developed to quantitatively prioritize the deleterious, functional and pathogenic CNVs in neurodevelopmental diseases on a genome wide basis. The core algorithm of neuroCNVscore is XGBoost. NeuroCNVscore outperformed a state-of-art tool in independent datasets. If you find neuroCNVscore useful in your work, please consider citing the neuroCNVscore paper (coming soon)
 
 # Quick start
-Before running the neuroCNVscore, make sure you have CNV data and feature matrix available. 
+You need both CNV data and feature matrix to run the neuroCNVscore. 
 
 ## CNV data
 Input file format (a tab-delimited file): <br><br>
@@ -14,8 +14,7 @@ Column 4: CNV type (gain or loss) <br>
 
 ## Feature matrix
 ### Feature source 
-To run the neuroCNVscore on specific CNVs, these CNVs must be annotated with neuro specific features first.
-A completed feature list could be found under feature folder or at supplemnetary table from our paper.
+CNVs must be annotated with neuro specific features. A completed feature list could be found under feature folder or at supplemnetary table from our paper. 
 
 ### Feature matrix generation
 To run the script,please make sure you have bedtools (v2.29.2) installed. And all the FEATRUE files shall be in bed format including: chromosome, start, end and score/information.
