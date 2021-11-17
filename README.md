@@ -37,7 +37,7 @@ An example of output is provided as: copy_number_loss_example.bed
 The trained models are currently provided in two types: copy number loss and copy number gain. 
 
 ## Main script
-This script cnv_path_xgboost_202111.ipynb includes the main steps on input preprocessing, model training, prediction and performan evaluation.  Python version is 3.9.7 
+This script cnv_path_xgboost_202111.ipynb includes the main steps on input preprocessing, model training, prediction and performan evaluation. An example of input is provided as copy_number_loss_example.bed. Python version is 3.9.7 
 
 ### Prediction interpretation
 Generally, higher predicted score is more likely to be pathogenic, and lower predicted score is considering to be benign. Empirically, a score is higher than 0.68 is considered as pathogenic.
