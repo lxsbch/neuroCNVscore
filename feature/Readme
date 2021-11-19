@@ -1,6 +1,6 @@
 This directory consists of preprocessed annotation files which were used to generate feature matrix.
 
-The full feature names could be found below (or from supplementary table for more details). They are from various sources including ENCODE, EpiMap, UCSC genome browser, PsychENCODE, HPO and enhancer centered databases etc.
+The full feature names could be found below (or from supplementary table for more details). They are from various sources including ENCODE, EpiMap, UCSC genome browser, PsychENCODE, HPO, Clinvar, enhancer centered databases, and github page from MacArthur's Lab  etc.
 
 List of Features in neuroCNVscore:
 1.Gene level
