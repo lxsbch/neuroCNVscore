@@ -1,8 +1,8 @@
 # neuroCNVscore
-The neuroCNVscore was developed to quantitatively prioritize the deleterious, functional and pathogenic CNVs in neurodevelopmental diseases on a genome wide basis. The core algorithm of neuroCNVscore is XGBoost. NeuroCNVscore outperformed a state-of-art tool in independent datasets. If you find neuroCNVscore useful in your work, please consider citing the neuroCNVscore paper (coming soon)
+The neuroCNVscore is developed to quantitatively prioritize the deleterious, functional and pathogenic CNVs in neurodevelopmental diseases at a genome wide basis. The core algorithm of neuroCNVscore is XGBoost. NeuroCNVscore outperformed a state-of-art tool in independent datasets. If you find neuroCNVscore useful in your work, please consider citing the neuroCNVscore paper (coming soon)
 
 # Quick start
-You need both CNV data and feature matrix to run the neuroCNVscore. 
+Both CNV data and feature matrix are needed to run the neuroCNVscore. 
 
 ## CNV data
 Input file format (a tab-delimited file): <br><br>
